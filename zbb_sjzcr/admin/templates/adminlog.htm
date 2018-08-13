@@ -1,0 +1,46 @@
+{include file='header.htm'}
+<h3>管理员日志</h3>
+{if $operation == 'list'}
+	<div class="search-div" style="margin-bottom:5px;">
+		<form name="searchForm" action="index.php?action=adminlog&op=list" method="post">
+			<table style="width:auto;margin:5px;" cellpadding="2">
+				<tr>
+					<td>管理员：</td>
+					<td>
+						<select id="adminlist" name="adminlist">
+						  <option value="" selected="">请选择...</option>
+						  {foreach from=$admin_list item=admin}
+						  <option value="{$admin.admin_id}">{$admin.user_name}</option>
+						  {/foreach}
+						</select>
+					</td>
+					<td>&nbsp;&nbsp;</td>
+					<td><input type="text" size="15" id="key" name="key" placeholder="输入关键字"></td>
+					<td><input type="submit" class="button" value=" 搜索 "> </td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="list-div" id="listDiv">
+		<table cellspacing='1' cellpadding='3'>
+		  <tr>
+			<th>日志ID</th>
+			<th>操作者</th>
+			<th>操作日期</th>
+			<th>ip地址</th>
+			<th>操作记录</th>
+		  </tr>
+		  {foreach from=$log_list item=log}
+		  <tr>
+			<td>{$log.log_id}</td>
+			<td>{if $log.user_name}{$log.user_name}{else}已删除({$log.adminid}){/if}</td>
+			<td>{$log.log_time}</td>
+			<td>{$log.ip_address}</td>
+			<td>{$log.log_info}</td>
+		  </tr>
+		  {/foreach}
+		</table>
+		<div class="pages">{$multi}</div>
+	</div>
+{/if}
+{include file='footer.htm'}

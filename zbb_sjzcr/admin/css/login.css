@@ -1,0 +1,143 @@
+html{background:#30333f;}
+body{ background:none; text-align:center; height: 100%;overflow-x:hidden;}
+#login-page {
+    color: #000;
+}
+.login-form .item {
+    border: 1px solid #ececec;
+    margin-bottom: 10px;
+    padding: 3px 10px 3px 12px;
+	border-radius: 5px;
+}
+.login-body {
+    height: 448px;
+    margin-bottom: 10px;
+}
+.login-body .pr {
+    height: 448px;
+    position: relative;
+}
+.login-main {
+}
+#login-page .login-form {
+    background-color: #fff;
+    border-top-color: #42ec00;
+    box-shadow: 0 0 26px #041a36;
+}
+.login-form {
+    background-color: #fff;
+    border-top: 8px solid #42ec00;
+    box-shadow: 0 0 26px #041a36;
+    margin: 100px auto;
+    padding: 25px 30px 13px;
+    width: 290px;
+}
+#login-page .login-form h3 {
+    color: #8d9caa;
+}
+#login-page .welcome {
+    color: #ddd;
+}
+.login-form h3 {
+    color: #8d9caa;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+}
+.login-logo {
+    background: url("../images/logo.png") no-repeat center center;
+    display: inline-block;
+    height: 31px;
+    margin-right: 8px;
+	margin-top:-3px;
+    vertical-align: middle;
+    width: 31px;
+	background-size:100% 100%;
+	border-radius:10px;
+}
+#itemBox {
+    position: relative;
+}
+.login-form .item-box .item {
+    border-radius: 5px;
+	border-color: #ececec;
+}
+.icon-login-user, .icon-login-pwd, .icon-login-verifycode {
+    background:url("../images/icon24_login.png") no-repeat;
+    display: inline-block;
+    height: 24px;
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 24px;
+}
+.icon-login-pwd {
+    background-position: -48px 0;
+}
+.icon-login-verifycode {
+    background-position: -24px 0;
+}
+#login-page .login-form input {
+    background-color: #fff;
+    color: #686868;
+}
+.login-form input {
+    background-color: #fff;
+    border: 0 none;
+    color: #686868;
+    font-family: "????",arial,sans-serif;
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    outline: 0 none;
+    padding: 8px 0;
+    resize: none;
+    vertical-align: middle;
+    width: 220px;
+}
+.login-form .verifycode input {
+    font-size: 16px;
+    width: 166px;
+}
+.placeholder_un {
+    top: 13px;
+}
+.placeholder_copy {
+    color: #adadad;
+    display: none;
+    font-size: 16px;
+    left: 48px;
+    position: absolute;
+}
+img.verifyimg {
+    border: 1px solid #ececec;
+    cursor: pointer;
+}
+.login_btn_panel {
+    margin: 20px 0 10px;
+}
+.login-btn {
+    background-color: #40c402;
+    color: #ffffff;
+	cursor: pointer;
+    font-family: "微软雅黑",arial,verdana;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+	padding: 3px 0;
+	border: 0 none;
+	height: 48px;
+}
+.check-tips {
+    color: #ff0000;
+	margin-top: 10px;
+	text-align:left;
+}
+ .focus {
+    border: 1px solid #a6e1f3;
+    box-shadow: 0 0 12px #baf7ff;
+}

@@ -1,0 +1,84 @@
+body{
+	height: 100%;
+    line-height: 1.4em;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 320px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+img{
+    max-width: 100%;
+}
+.bg{ pointer-events: none; }
+#pao{
+	position:absolute;
+	margin-top:50px;
+	left:50%;
+	margin-left:-150px;
+	width:300px;
+}
+.hd img,.ft img{max-width:100%; height:auto; }
+.hd,.ft,.zhongjiang{text-align:center;}
+.ft{margin-top:35px;}
+article{text-align:left;margin:0 5px}
+article h1{text-align:center;}
+.display-radio{padding:15px 30px;}
+.userinfo{text-align:center;}
+.zhuanpan_content{
+    position: relative;
+    width:100%;
+    display:block;
+    top:28%;
+}
+#disk{position: absolute;left:50%;width: 68%;margin-left: -34%;}
+#start{position: absolute;max-width:300px;left:50%;width:17%;width: 17%;margin-left: -8.5%;margin-top:85.5px;}
+#start img{cursor:pointer;height:auto;}
+.back,.go{margin:10px 40px;}
+.detail{padding:50px 30px;position:absolute;line-height:30px;}
+#addr{width:100%;line-height:inherit;font-size: 100%;padding:8px 0;margin-top:10px;border:1px solid #ccc;}
+.pv{position:absolute;left:50%;text-align:right;color:#fff;font-weight:bold;}
+.myPrize{
+    position: absolute;
+    left:5%;
+    top:6%;
+    width:23%;
+}
+.prizeList{
+    position: fixed;
+    left:50%;
+    top:10%;
+    width:80%;
+    margin-left:-40%;
+    z-index:13; 
+}
+.plsit{
+     position: fixed;
+     margin-top:5.8em;
+     z-index:14;
+     padding-left:2.6em;
+     box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    max-height:26em;
+    height:26em;
+    overflow-y:scroll;
+    width: 70%;
+}
+.plsit td{
+    font-size:15px;
+    color:#db1919;
+    font-weight:bold;
+    padding:5px 0;
+}
+.lingqu{
+    position: absolute;
+    left:50%;
+    top:98%;
+    width:28%;
+    margin-left:-14%;
+}
+.lingqu img{
+    width:100%;
+}
+
